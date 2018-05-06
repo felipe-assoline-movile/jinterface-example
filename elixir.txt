@@ -1,0 +1,7 @@
+:net_adm.names
+
+Node.ping(:"jvm-server@NOTE-577")
+
+send({:"jvm-process", :"jvm-server@NOTE-577"}, {self()})
+
+receive do msg -> IO.inspect(msg) end
