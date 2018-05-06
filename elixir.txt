@@ -1,3 +1,5 @@
+iex --sname elixir-server --cookie 63ee2343-662d-4679-965c-356f86b18aef
+
 :net_adm.names
 
 Node.ping(:"jvm-server@NOTE-577")
